@@ -11,6 +11,11 @@ jQuery(document).ready(function($) {
 
 	});
 
+	$( "#contactForm" ).on( "click", function() {
+		$zopim.livechat.window.show();
+
+	});
+
 	"use strict";
 
 	$(".loader").delay(1000).fadeOut("slow");
